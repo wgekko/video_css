@@ -1,0 +1,34 @@
+body{
+    background-color: aquamarine;
+}
+.showcase {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+.showcase video{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+}
+.title {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    background-color: #242323;
+    font-size: 100px;
+    color: #fff;
+    mix-blend-mode: multiply;
+}
+.texto{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    background-color: #a9a9a9;
+    font-size: 60px;
+    color: #212525;
+    mix-blend-mode: multiply;
+}
